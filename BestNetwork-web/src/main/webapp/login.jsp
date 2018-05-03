@@ -9,7 +9,7 @@
 <%@ include file="common/materialize_topbar.inc.jsp" %>
 
 
-<title>Вход</title>
+<title>Вход </title>
 </head>
 <body>
 
