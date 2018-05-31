@@ -1,4 +1,4 @@
-package org.bestnetwork.dao;
+package org.bestnetwork.entity;
 
 import java.io.Serializable;
 
