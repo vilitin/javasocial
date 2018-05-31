@@ -51,6 +51,7 @@
 		<spring.version>4.3.4.RELEASE</spring.version>
 		<spring.data.version>1.9.4.RELEASE</spring.data.version>
 		<spring.security.version>4.2.1.RELEASE</spring.security.version>
+		 <hibernate.version>5.2.6.Final</hibernate.version>
 	</properties>
 
 </project>
