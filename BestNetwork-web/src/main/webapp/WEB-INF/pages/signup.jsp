@@ -76,8 +76,8 @@
     </div>
 </div>
 
-<script type="text/javascript" src="js/materialize.min.js"></script>
-<script src="js/init.js"></script>
+<script type="text/javascript" src="${pageContex.request.contextPath}/js/materialize.min.js"></script>
+<script src="${pageContex.request.contextPath}/js/init.js"></script>
 
 </body>
 </html>

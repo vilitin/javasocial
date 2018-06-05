@@ -21,15 +21,15 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="/js/jquery-2.1.1.js"></script>
-    <script type="text/javascript" src="/js/my.js?x=1"></script>
-    <script type="text/javascript" src="/js/drawer.js"></script>
+    <script type="text/javascript" src="/${pageContex.request.contextPath}/resources/js/jquery-2.1.1.js"></script>
+    <script type="text/javascript" src="/${pageContex.request.contextPath}/resourcesjs/my.js?x=1"></script>
+    <script type="text/javascript" src="/${pageContex.request.contextPath}/resources/js/drawer.js"></script>
 
-    <script src="/js/common.js?x=3"></script>
+    <script src="/${pageContex.request.contextPath}/resources/js/common.js?x=3"></script>
 
-    <script src="/js/jquery.colorbox.js?x=30"></script>
-    <script src="/js/jquery.autosize.js?x=30"></script>
-    <script src="/js/jquery.cookie.js?x=30"></script>
+    <script src="/${pageContex.request.contextPath}/resources/js/jquery.colorbox.js?x=30"></script>
+    <script src="/${pageContex.request.contextPath}/resources/js/jquery.autosize.js?x=30"></script>
+    <script src="/${pageContex.request.contextPath}/resources/js/jquery.cookie.js?x=30"></script>
 
     <script type="text/javascript">
 
