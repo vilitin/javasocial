@@ -20,12 +20,12 @@
 <meta name="generator" content="Безопасный мессенджер Asterios.ws, Социальная сеть Asterios.ws" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/ionicons.min.css">
-	<link rel="stylesheet" href="assets/css/owl.carousel.css">
-	<link rel="stylesheet" href="assets/css/owl.theme.css">
-	<link rel="stylesheet" href="assets/css/animate.css">
-	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/ionicons.min.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/owl.carousel.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/owl.theme.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/animate.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/style.css">
 
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Oxygen:400,300,700' rel='stylesheet'>
@@ -223,11 +223,11 @@
 
 	<!-- All the scripts -->
 
-	<script src="assets/js/jquery-2.1.3.min.js"></script>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-	<script src="assets/js/owl.carousel.js"></script>
-	<script src="assets/js/script.js"></script>
+	<script src="${pageContex.request.contextPath}/resources/assets/js/jquery-2.1.3.min.js"></script>
+	<script src="${pageContex.request.contextPath}/resources/assets/js/bootstrap.min.js"></script>
+	<script src="${pageContex.request.contextPath}/resources/assets/js/wow.min.js"></script>
+	<script src="${pageContex.request.contextPath}/resources/assets/js/owl.carousel.js"></script>
+	<script src="${pageContex.request.contextPath}/resources/assets/js/script.js"></script>
 	
 
 
