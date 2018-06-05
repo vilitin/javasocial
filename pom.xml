@@ -49,7 +49,7 @@
 
 
 	<properties>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+			<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<servlets.version>3.0.1</servlets.version>
 		<jstl.version>1.2</jstl.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
