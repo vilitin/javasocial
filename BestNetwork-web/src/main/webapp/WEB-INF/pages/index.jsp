@@ -1,6 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
 <!-- Сделать проверку на авторизацию -->
@@ -20,12 +20,17 @@
 <meta name="generator" content="Безопасный мессенджер Asterios.ws, Социальная сеть Asterios.ws" />
 
 	<!-- css -->
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/ionicons.min.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/owl.carousel.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/owl.theme.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/animate.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resourcesassets/css/style.css">
+	
+	<c:url var="bootstrapCss" value="resources/assets/css/bootstrap.min.css" />
+	<c:url var="ioniconsCss" value="resources/assets/css/ionicons.min.css" />
+	
+	
+	<link rel="stylesheet" href="${bootstrapCss}">
+	<link rel="stylesheet" href="${ioniconsCss}">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/owl.theme.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/animate.css">
+	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/style.css">
 
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Oxygen:400,300,700' rel='stylesheet'>
@@ -59,6 +64,8 @@
 
 	    </ul>
 	</nav>
+	
+	<h1>AAAAAAA - ${pageContex.request.contextPath}</h1>
 
 	<!-- ****************************** Header ************************** -->
 
