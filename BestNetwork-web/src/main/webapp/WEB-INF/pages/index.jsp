@@ -2,6 +2,9 @@
 
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
+<%@ include file="/WEB-INF/pages/common/css_include.jsp" %>
+<%@ include file="/WEB-INF/pages/common/js_include.jsp" %>
+
 
 <!-- Сделать проверку на авторизацию -->
 
@@ -19,18 +22,7 @@
 <meta name="keywords" content="Безопасный мессенджер Asterios.ws, Социальная сеть Asterios.ws" />
 <meta name="generator" content="Безопасный мессенджер Asterios.ws, Социальная сеть Asterios.ws" />
 
-	<!-- css -->
 	
-	<c:url var="bootstrapCss" value="resources/assets/css/bootstrap.min.css" />
-	<c:url var="ioniconsCss" value="resources/assets/css/ionicons.min.css" />
-	
-	
-	<link rel="stylesheet" href="${bootstrapCss}">
-	<link rel="stylesheet" href="${ioniconsCss}">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/owl.carousel.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/owl.theme.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/animate.css">
-	<link rel="stylesheet" href="${pageContex.request.contextPath}/resources/assets/css/style.css">
 
 	<!-- fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700|Oxygen:400,300,700' rel='stylesheet'>
@@ -65,7 +57,6 @@
 	    </ul>
 	</nav>
 	
-	<h1>AAAAAAA - ${pageContex.request.contextPath}</h1>
 
 	<!-- ****************************** Header ************************** -->
 
@@ -171,41 +162,7 @@
 		</section>
 	</section>
 
-	<!-- ****************************** Gallery Section ************************** -->
-
-	<!----section id="gallery" class="block">
-		<section class="container">
-			<section class="row">
-				<div class="title-box" style="color:#fff;"><h1 class="block-title wow animated rollIn">
-				<span class="bb-top-left" style="border-color: #fff; "></span>
-				<span class="bb-bottom-left" style="border-color: #fff; "></span>
-				<?php echo $LANG['page-gallery']; ?>
-				<span class="bb-top-right" style="border-color: #fff; "></span>
-				<span class="bb-bottom-right" style="border-color: #fff; "></span>
-				</h1></div>
-			</section>
-			<section class="row">
-				<div class="col-xs-12">
-					<div id="screenshots" class="owl-carousel owl-theme">
-					  <div class="item"><img src="assets/img/screenshot-1.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-2.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-3.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-4.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-5.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-6.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-7.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-3.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-5.png" class="img_res wow animated zoomIn"></div>
-					  <div class="item"><img src="assets/img/screenshot-1.png" class="img_res wow animated zoomIn"></div>
-					</div>
-					 <div class="customNavigation">
-					  <a class="btn prev gallery-nav wow animated bounceInLeft"><i class="ion-ios-arrow-left"></i></a> 
-					  <a class="btn next gallery-nav wow animated bounceInRight"><i class="ion-ios-arrow-right"></i></a>
-					</div>
-				</div>
-			</section>
-		</section>
-	</section>
+	
 
 	
 
@@ -228,41 +185,12 @@
 		</section>
 
 
-	<!-- All the scripts -->
-
-	<script src="${pageContex.request.contextPath}/resources/assets/js/jquery-2.1.3.min.js"></script>
-	<script src="${pageContex.request.contextPath}/resources/assets/js/bootstrap.min.js"></script>
-	<script src="${pageContex.request.contextPath}/resources/assets/js/wow.min.js"></script>
-	<script src="${pageContex.request.contextPath}/resources/assets/js/owl.carousel.js"></script>
-	<script src="${pageContex.request.contextPath}/resources/assets/js/script.js"></script>
 	
 
 
 <div style='display: none;'>
 
-<!-- site 1x1 counter -->
-<script type="text/javascript"><!--
-var olt_rnd_gen = Math.random()*10000;
-document.write('<img src="https://asterios.ws/counter/hit.php?sih=1&r='+
-escape(document.referrer)+((typeof(screen)=='undefined')?'&m=null':
-'&m='+screen.width+'*'+screen.height+'*'+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+'&p='+escape(document.URL)+
-'&g='+olt_rnd_gen+
-'" width=1 height=1 alt="">')//-->
-</script>
-<!-- /site 1x1 counter -->
 
-<!--LiveInternet counter--><script type="text/javascript">
-document.write("<a href='//www.liveinternet.ru/click' "+
-"target=_blank><img src='//counter.yadro.ru/hit?t26.6;r"+
-escape(document.referrer)+((typeof(screen)=="undefined")?"":
-";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
-screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
-";h"+escape(document.title.substring(0,150))+";"+Math.random()+
-"' alt='' title='LiveInternet: показано число посетителей за"+
-" сегодня' "+
-"border='0' width='88' height='15'><\/a>")
-</script><!--/LiveInternet-->
 
 </div>
 

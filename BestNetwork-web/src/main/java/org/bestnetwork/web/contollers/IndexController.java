@@ -17,5 +17,18 @@ public class IndexController {
 	public String loginPage2() {
 		return "login";
 	}
+	@RequestMapping(value = "/signup", method = RequestMethod.GET)
+	public String SignupPage() {
+		return "signup";
+	}
 
+	@RequestMapping(value = "/remind", method = RequestMethod.GET)
+	public String RemindPage() {
+		return "remind";
+	}
+	
+	@RequestMapping(value = "/error", method = RequestMethod.GET)
+	public String error() {
+		return "remind";
+	}
 }
